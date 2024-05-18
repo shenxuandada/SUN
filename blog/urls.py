@@ -1,6 +1,8 @@
+from django.contrib import admin
 from django.urls import path
-from . import views
+from blog import views
 
 urlpatterns = [
-    path('', views.post_list, name='post_list'),
+    path('admin/', admin.site.urls),
+    path('', views.index, name='index'),  # 根路径指向 index 视图
 ]
