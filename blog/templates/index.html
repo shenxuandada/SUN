@@ -1,47 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <title>자화상-윤동주 </title>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
     <style>
+        body {
+            font-family: 'Noto Sans KR', sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+        header h1 {
+            font-family: 'Indie Flower', cursive;
+            text-align: center;
+            font-size: 36px;
+            color: #2c3e50;
+        }
         hr {
-            border: 5px solid black; /* 定义分割线的样式，这里设置为1像素的实线 */
-            margin: 20px 0; /* 设置分割线上下的间距 */
+            border: 5px solid #2c3e50;
+            margin: 20px 0;
         }
         .hr-01 {
-            border: 1px solid black; /* 定义分割线的样式，这里设置为1像素的实线 */
-            margin: 20px 0; /* 设置分割线上下的间距 */
+            border: 1px solid #2c3e50;
+            margin: 20px 0;
         }
         .center-text {
-            text-align: center; /* 将文本居中对齐 */
+            text-align: center;
             font-size: 24px;
             font-weight: bold;
+            color: #2980b9;
         }
-
         .firs-line {
             text-align: center;
-            font-size: 17px;
+            font-size: 18px;
             font-weight: bold;
+            color: #2980b9;
         }
         .custom-hr {
-            width: 50%; /* 设置分割线的宽度为页面宽度的一半 */
-            border: none; /* 去掉默认的边框 */
-            border-top: 2px solid black; /* 设置分割线的顶部边框为黑色，粗细为 2px */
-            margin: 20px auto; /* 将分割线居中对齐 */
+            width: 50%;
+            border: none;
+            border-top: 2px solid #2980b9;
+            margin: 20px auto;
+        }
+        section p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+        aside {
+            background-color: #ecf0f1;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+        aside h1 {
+            font-family: 'Indie Flower', cursive;
+            font-size: 24px;
+            color: #2c3e50;
+        }
+        aside ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        aside li {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+        footer {
+            text-align: center;
+            font-size: 14px;
+            color: #7f8c8d;
+            margin-top: 20px;
         }
     </style>
 </head>
 
 <body>
   <section>
-  <header>
-    <h1>자화상-윤동주</h1>
-  </header>
-  <hr> <!-- 这里添加了分割线 -->
-  <p class="center-text"><자화상></p>
-  <p class="firs-line"><ins><윤동주></ins></p>
-  <hr class="custom-hr"> 
-  <p>산모퉁이를 돌아 논가 외딴 우물을 홀로 찾아가 선 가만히 들여다봅니다.</p>
+    <header>
+      <h1>자화상-윤동주</h1>
+    </header>
+    <hr>
+    <p class="center-text"><자화상></p>
+    <p class="firs-line"><ins><윤동주></ins></p>
+    <hr class="custom-hr">
+    <p>산모퉁이를 돌아 논가 외딴 우물을 홀로 찾아가 선 가만히 들여다봅니다.</p>
     <p>우물속에는 달이 밝고 구름이 흐르고 하늘이 펼치고 파아란 바람이 불고 가을이 있습니다.</p>
     <p>그리고 한 사나이가 있습니다.</p>
     <p>어쩐지 그 사나이가 미워져 돌아갑니다.</p>
@@ -51,7 +96,7 @@
     <p>돌아가다 생각하니 그 사나이가 그리워집니다.</p>
     <p>우물속에는 달이 밝고 구름이 흐르고 하늘이 펼치고 파아란 바람이 불고 가을이 있고 추억처럼 사나이가 있습니다.</p>
   </section>
-  
+
   <aside>
     <h1>윤동주 시인의 다른 시</h1>
     <ul>
@@ -68,9 +113,9 @@
         <li>소낙비</li>
     </ul>
   </aside>
-  
-  <hr class="hr-01"> 
-  
+
+  <hr class="hr-01">
+
   <footer>
     <p>© 모바일/웹 서비스 프로그래밍® 2023</p>
   </footer>
